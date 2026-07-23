@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 require('dotenv').config();
+const cors = require("cors");
 
 // const { loadEnvFile } = require('node:process');
 // loadEnvFile('./.env');
@@ -9,6 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.use(express.json({urlencoded: true}))
+app.use(cors())
 
 //controllers
 const loginController = require("./controllers/loginController");
