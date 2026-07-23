@@ -1,0 +1,228 @@
+[
+    {
+        "serviceNumber": "AirBus0045",
+        "company": "AirBus",
+        "numberOfSeats": {
+            "economy": 120,
+            "business": 50,
+            "first": 20
+        },
+        "source": {
+            "airport": "Kolkata-IND",
+            "time": "01:30:00"
+        },
+        "destination": "NewYork-USA",
+        "duration": "10 hrs",
+        "intermediateStops": [
+            "Banglore-IND",
+            "Dubai-UAN"
+        ],
+        "runningDays": [
+            "MON",
+            "WED",
+            "FRI"
+        ]
+    },
+    {
+        "serviceNumber": "AirIndia3344",
+        "company": "AirIndia",
+        "numberOfSeats": {
+            "economy": 200,
+            "business": 40,
+            "first": 12
+        },
+        "source": {
+            "airport": "Delhi-IND",
+            "time": "22:15:00"
+        },
+        "destination": "London-UK",
+        "duration": "9 hrs 30 mins",
+        "intermediateStops": [
+            "Muscat-OMN"
+        ],
+        "runningDays": [
+            "TUE",
+            "THU",
+            "SUN"
+        ]
+    },
+    {
+        "serviceNumber": "Indigo987",
+        "company": "Indigo",
+        "numberOfSeats": {
+            "economy": 180,
+            "business": 30,
+            "first": 0
+        },
+        "source": {
+            "airport": "Mumbai-IND",
+            "time": "06:45:00"
+        },
+        "destination": "Singapore-SGP",
+        "duration": "5 hrs 10 mins",
+        "intermediateStops": [],
+        "runningDays": [
+            "MON",
+            "TUE",
+            "WED",
+            "THU",
+            "FRI"
+        ]
+    },
+    {
+        "serviceNumber": "AirIndia0087",
+        "company": "AirIndia",
+        "numberOfSeats": {
+            "economy": 170,
+            "business": 36,
+            "first": 10
+        },
+        "source": {
+            "airport": "Chennai-IND",
+            "time": "03:20:00"
+        },
+        "destination": "Sydney-AUS",
+        "duration": "12 hrs 45 mins",
+        "intermediateStops": [
+            "Singapore-SGP",
+            "KualaLumpur-MYS"
+        ],
+        "runningDays": [
+            "WED",
+            "SAT"
+        ]
+    },
+    {
+        "serviceNumber": "AirAsia7890",
+        "company": "AirAsia",
+        "numberOfSeats": {
+            "economy": 210,
+            "business": 24,
+            "first": 0
+        },
+        "source": {
+            "airport": "Bengaluru-IND",
+            "time": "11:00:00"
+        },
+        "destination": "KualaLumpur-MYS",
+        "duration": "4 hrs 0 mins",
+        "intermediateStops": [],
+        "runningDays": [
+            "MON",
+            "THU",
+            "SAT"
+        ]
+    },
+    {
+        "serviceNumber": "AirBus8888",
+        "company": "AirBus",
+        "numberOfSeats": {
+            "economy": 160,
+            "business": 48,
+            "first": 16
+        },
+        "source": {
+            "airport": "Hyderabad-IND",
+            "time": "20:30:00"
+        },
+        "destination": "Paris-FRA",
+        "duration": "10 hrs 15 mins",
+        "intermediateStops": [
+            "Doha-QAT"
+        ],
+        "runningDays": [
+            "TUE",
+            "FRI"
+        ]
+    },
+    {
+        "serviceNumber": "Quatar9967",
+        "company": "Quatar",
+        "numberOfSeats": {
+            "economy": 190,
+            "business": 50,
+            "first": 18
+        },
+        "source": {
+            "airport": "Kolkata-IND",
+            "time": "04:50:00"
+        },
+        "destination": "Doha-QAT",
+        "duration": "4 hrs 20 mins",
+        "intermediateStops": [],
+        "runningDays": [
+            "MON",
+            "WED",
+            "THU",
+            "SUN"
+        ]
+    },
+    {
+        "serviceNumber": "Ethihad6698",
+        "company": "Ethihad",
+        "numberOfSeats": {
+            "economy": 175,
+            "business": 42,
+            "first": 14
+        },
+        "source": {
+            "airport": "Pune-IND",
+            "time": "13:10:00"
+        },
+        "destination": "AbuDhabi-UAE",
+        "duration": "3 hrs 50 mins",
+        "intermediateStops": [
+            "Mumbai-IND"
+        ],
+        "runningDays": [
+            "TUE",
+            "THU",
+            "SAT"
+        ]
+    },
+    {
+        "serviceNumber": "Dubai0089",
+        "company": "Dubai",
+        "numberOfSeats": {
+            "economy": 220,
+            "business": 60,
+            "first": 20
+        },
+        "source": {
+            "airport": "Ahmedabad-IND",
+            "time": "02:40:00"
+        },
+        "destination": "Dubai-UAE",
+        "duration": "3 hrs 40 mins",
+        "intermediateStops": [],
+        "runningDays": [
+            "MON",
+            "WED",
+            "FRI",
+            "SUN"
+        ]
+    },
+    {
+        "serviceNumber": "Ethihad6699",
+        "company": "Ethihad",
+        "numberOfSeats": {
+            "economy": 150,
+            "business": 34,
+            "first": 8
+        },
+        "source": {
+            "airport": "Kochi-IND",
+            "time": "17:25:00"
+        },
+        "destination": "Toronto-CAN",
+        "duration": "14 hrs 20 mins",
+        "intermediateStops": [
+            "AbuDhabi-UAE",
+            "London-UK"
+        ],
+        "runningDays": [
+            "WED",
+            "SAT"
+        ]
+    }
+]

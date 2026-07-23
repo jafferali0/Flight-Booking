@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Book",
+        "menuOptions": [
+            "Flights",
+            "Stopover"
+        ]
+    },
+    {
+        "title": "Flight Status",
+        "menuOptions": []
+    },
+    {
+        "title": "Offers",
+        "menuOptions": [
+            "Top destinations",
+            "Flight deals",
+            "Medical travel insurance"
+        ]
+    },
+    {
+        "title": "My Bookings",
+        "menuOptions": [
+            "Upcomming",
+            "Completed",
+            "Canceled"
+        ]
+    },
+    {
+        "title": "Pending Payements",
+        "menuOptions": [
+            "Refund",
+            "Wallet"
+        ]
+    }
+]
