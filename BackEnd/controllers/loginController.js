@@ -4,6 +4,22 @@ const loginController = express();
 //models
 const userModel = require("../models/userModel");
 
+loginController.get("/", async (req, res) => {
+  // we need to create a user in db
+  try {
+    const dbRes = await userModel.find();
+    res.json({
+      message: "list of user",
+      userDetails: dbRes,
+    });
+  } catch (err) {
+    res.status(404).send({
+      message: "cannot get the user details",
+      error: err.name,
+    });
+  }
+});
+
 loginController.post("/signup", async (req, res) => {
   // we need to create a user in db
   try {
